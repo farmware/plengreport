@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+}
+.header{
+    position: fixed;
+    top: 1vh;
+    left: auto;
+    right: auto;
+    width: 139vh;
+    height: 11vh;
+    background-color: #261c55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.header h2{
+    font-size: 3.5vh;
+    color: white;
+    font-weight: 600;
+    word-spacing: 1vh;
+    font-family: Arial, sans-serif;
+}
+form{
+    background-color: white;
+    padding: 3vh;
+    box-shadow: 0 2px 5px 1px rgba(117, 117, 117, 0.4);
+    margin-top: 12vh;
+    max-height: 90vh; 
+    overflow-y: auto;
+    width: 133vh !important;
+}
+
+
+.site_info{
+    height: auto;
+    width: 130vh;
+    background-color: white;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+#site_info_input{
+    width: 80vh;
+    background-color: white;
+}
+.site_info_child{
+    height: 5vh;
+    background-color: transparent;
+    display: flex;
+    margin-bottom: 2vh;
+}
+.site_info_child_title{
+    width: 40vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.site_info_child_title P{
+    font-size: 2.4vh;
+    color: black;
+    font-weight: 500;
+}
+.site_info_child_input{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+
+.weather_container{
+    height: 18vh;
+    width: 130vh;
+    background-color: transparent;
+    margin-top: 5vh;
+}
+.weather_title{
+    color: #261c55;
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin-bottom: 1.5vh;
+}
+.weather_container_child{
+    height: 7vh;
+    width: 125vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2vh;
+}
+.weather_container_child_element{
+    display: flex;
+    align-items: center;
+}
+.weather_container_child_element p{
+    font-size: 2vh;
+    font-weight: 500;
+    margin-right: 1vh;
+}
+
+
+.temperature_container{
+    height: 17vh;
+    width: 130vh;
+    background-color: transparent;
+}
+.temperature_title{
+    color: #261c55;
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+
+
+.labor_container{
+    height: auto;
+    width: 130vh;
+    background-color: transparent;
+    margin-top: 5vh;
+}
+.labor_title{
+    color: #261c55;
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+.labor_sutitle{
+    color: black;
+    font-size: 2.4vh;
+    font-weight: 600;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-bottom: 2vh;
+}
+.skilled_labor_container{
+    height: auto;
+    width: 130vh;
+    background-color: transparent;
+    margin-bottom: 3vh;
+}
+.skilled_labor_container1{
+    height: 7vh;
+    width: 130vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.skilled_labor_container1_child{
+    height: 7vh;
+    width: 40vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    font-size: 2.3vh;
+    font-weight: 500;
+}
+.skilled_labor_container2{
+    height: 7vh;
+    width: 130vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: start;
+
+}
+
+
+
+
+.equipment_container{
+    height: auto;
+    width: 130vh;
+    background-color: transparent;
+    margin-bottom: 10vh;
+}
+.equipment_title{
+    color: #261c55;
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+.equipment_container_child{
+    height: auto;
+    width: 130vh;
+    background-color: transparent;
+}
+.equipment_container1{
+    height: 5vh;
+    width: 130vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.equipment_container1_child{
+    height: 7vh;
+    width: 30vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    font-size: 2.3vh;
+    font-weight: 500;
+}
+#equipment_input{
+    width: 25vh;
+}
+.equipment_container2{
+    width: 130vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: start;
+}
+
+
+
+
+.safety_container{
+    height: auto;
+    width: 130vh;
+    background-color: transparent;
+    margin-bottom: 5vh;
+}
+.safety_title{
+    color: #261c55;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.safety_subtitle{
+    color: black;
+    font-size: 2.4vh;
+    font-weight: 500;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.recommendations_container{
+    height: auto;
+    width: 130vh;
+    background-color: transparent;
+    margin-bottom: 10vh;
+}
+.recommendations_title{
+    color: #170E3F;
+    font-size: 2.#261c55;
+    font-weight: 600;
+    margin-bottom: 3vh;
+}
+
+
+
+.declaration_container{
+    height: 15vh;
+    width: 125vh;
+    background-color: transparent;
+    margin-bottom: 5vh;
+}
+.declaration_container p input[type="text"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black; 
+    border-radius: 0;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    outline: none; 
+}
+.declaration_container p {
+    font-size: 2.8vh;
+    line-height: 2;
+}
+
+
+
+.pdf_container{
+    width: 130vh;
+    background-color: transparent;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pdf_container button{
+    padding: 2vh 4vh;
+    background-color: #261c55;
+    color: white;
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+
+
+
+
+.new_container_buttons{
+    background-color: #261c55;
+    color: white;
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1.3vh;
+    outline: none; 
+}
+
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1.3vh;
+    outline: none; 
+    width: 29vh;
+}
+
+hr{
+    height: 1vh;
+    background-color: #261c55;
+}
+
+.floating-icon {
+    position: fixed;
+    bottom: 5vh;
+    right: 15vh;
+}
+.floating-icon ion-icon{
+    background-color: #261c55;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
