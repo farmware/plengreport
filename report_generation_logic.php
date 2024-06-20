@@ -17,34 +17,34 @@
         $other_condition = $_POST['other_condition'];
 
         if($wind_condition === "on"){
-          $wind_condition = "TRUE";
+          $wind_condition = "X";
         }else{
-          $wind_condition = "FALSE";
+          $wind_condition = "";
         }
         if($overcast_condition === "on"){
-          $overcast_condition = "TRUE";
+          $overcast_condition = "X";
         }else{
-          $overcast_condition = "FALSE";
+          $overcast_condition = "";
         }
         if($sunny_condition === "on"){
-          $sunny_condition = "TRUE";
+          $sunny_condition = "X";
         }else{
-          $sunny_condition = "FALSE";
+          $sunny_condition = "";
         }
         if($cloudy_condition === "on"){
-          $cloudy_condition = "TRUE";
+          $cloudy_condition = "X";
         }else{
-          $cloudy_condition = "FALSE";
+          $cloudy_condition = "";
         }
         if($rain_condition === "on"){
-          $rain_condition = "TRUE";
+          $rain_condition = "X";
         }else{
-          $rain_condition = "FALSE";
+          $rain_condition = "";
         }
         if($other_condition === "on"){
-          $other_condition = "TRUE";
+          $other_condition = "X";
         }else{
-          $other_condition = "FALSE";
+          $other_condition = "";
         }
         
 
